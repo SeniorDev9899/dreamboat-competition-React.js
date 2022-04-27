@@ -1,0 +1,565 @@
+/* Navbar */
+
+.navbar .navbar-brand {
+  font-size: large !important;
+  padding-top: 0 !important;
+  margin-right: 0.5rem;
+}
+
+li.nav-item .shopping_cart {
+  padding-left: 5px !important;
+}
+
+li.nav-item .ticket_count {
+  color: #2CA8FF;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) {
+  font-size: 12px !important;
+}
+
+.navbar .navbar-brand img{
+  width: 40px;
+  height: 34px;
+}
+
+.navbar label {
+  font-size: 1.6em;
+  margin-right: 10px;
+  margin-top: 10px !important;
+}
+
+.navbar .nav-btn {
+  width: 90% !important;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-blue {
+  color: #2CA8FF;
+}
+/* Modal Cart */
+
+#table-cart .img-container {
+  width: 150px;
+  max-height: 100px;
+  overflow: hidden;
+  display: block;
+}
+
+#table-cart .img-container img{
+  width: 100%;
+}
+
+#table-cart .td-name {
+  font-weight: 400;
+  font-size: 1.2em;
+  min-width: 150px;
+}
+
+#table-cart > tbody > tr > td {
+  font-size: 1.2em;
+}
+
+#table-cart .td-name small {
+  color: #9A9A9A;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+#table-cart .td-number {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+#table-cart .td-name a {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  color: #444;
+}
+
+#table-cart .td-number .btn-group{
+  margin-left: 15px !important;
+}
+
+#table-cart {
+  overflow-x: hidden !important;
+}
+
+#table-cart .td-actions{
+  max-width: 90px;
+}
+
+#table-cart .ticket-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-cart .modal-body{
+  max-height: 500px !important;
+  overflow-y: scroll;
+}
+
+#modal-cart .modal-footer {
+  padding-top: 16px !important;
+}
+
+@media screen and (max-width: 767.98px) {
+  #table-cart .img-container {
+    width: 80px;
+  }
+
+  #table-cart .td-name {
+    font-weight: 400;
+    font-size: 0.8em;
+    min-width: 100px;
+  }
+  
+  .gallery-page .modal-dialog .ui-1_simple-delete{
+    font-size: 0.6em !important;
+  }
+  
+  .gallery-page .modal-dialog .ui-1_simple-add{
+    font-size: 0.6em !important;
+  }
+
+  #table-cart .td-number {
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.8em;
+  }
+
+  #table-cart .td-number .btn-group{
+    margin-left: 0 !important;
+  }
+  
+  .table td, .table th {
+    padding: 0.25rem !important;
+  }
+
+  #modal-cart .modal-content .modal-footer {
+    padding-left: 12px !important;
+  }
+  
+  .mobile-collapse{
+    display: none;
+  }
+}
+
+
+/* Register/ Login */
+
+.login-page .card-login {
+  border-radius: 0.25rem;
+  padding-bottom: 0.7rem;
+  min-width: 80% !important;
+}
+
+.red-text {
+  font-size: 12px;
+}
+
+/* Home Page */
+
+.features {
+  padding: 0px 0px !important;
+}
+
+.features-3 {
+  padding-bottom: 0px !important;
+}
+
+.team5 {
+  padding-bottom: 80px !important;
+}
+
+.section-image:after {
+  background-color: rgba(10, 103, 121, 0.8) !important;
+}
+
+/* Gallery Page */
+.gallery-page-header .title {
+  padding-top: 20px !important;
+}
+
+.filter {
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+
+.filter .input-group {
+  padding-top: 10px !important;
+}
+
+.filter .react-select {
+  margin-top: 10px !important;
+}
+
+.gallery-page {
+  max-height: 35vh !important;
+  min-height: 35vh !important;
+}
+
+.gallery-page .section {
+  padding: 0 0 50px 0 !important;
+}
+
+.gallery-page .section-sections .col-md-4 {
+  padding: 7.5px; 
+}
+
+.gallery-page .section-sections img {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-page .section-sections .overlay-info {
+  transition: all 0.2s ease 0s;
+  position: relative;
+  height: 240px !important;
+  overflow: hidden;
+  border-radius: 0.1875rem;
+  box-shadow: 0px 3px 3px 0px rgba(10, 103, 121, 0.2);
+}
+
+.gallery-page .section-sections .overlay-info:hover {
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02); 
+}
+
+
+.gallery-page .section-sections .category-info {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  transition: all 0.2s ease 0s;
+  font-size: 0.8em !important;
+}
+
+.gallery-page .section-sections .ticket-price-info {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transition: all 0.2s ease 0s;
+  font-size: 0.9em !important;
+}
+
+.gallery-page .section-sections .price-info {
+  position: absolute;
+  bottom: 45px;
+  left: 15px;
+  transition: all 0.2s ease 0s;
+  font-size: 0.8em !important;
+}
+
+/* Modal Dialog */
+.gallery-page .carousel-container {
+  height: 400px;
+}
+
+.gallery-page .carousel-container img {
+  width: 100%; 
+  height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-page .modal-dialog .card {
+    height: 400px;
+    overflow-y: scroll;
+  }
+}
+
+.gallery-page .details {
+  margin: 15px 0px 0 0px;
+}
+
+.gallery-page .modal-dialog .ui-1_simple-remove{
+  font-size: 30px !important;
+}
+
+.gallery-page .modal-dialog .badge-info {
+  font-size: 0.8rem !important;
+}
+
+.gallery-page .modal-dialog .detail-item {
+  text-align: right;
+}
+
+.gallery-page .modal-dialog .btn-add-cart {
+  font-size: 1em !important;
+}
+
+.gallery-page .modal-dialog .ui-1_simple-delete{
+  font-size: 1.8em;
+}
+
+.gallery-page .modal-dialog .ui-1_simple-add{
+  font-size: 1.8em;
+}
+
+.gallery-page .modal-dialog .ticket-number{
+  font-size: 1.8em !important;
+  color: #f96332;
+}
+
+.gallery-page .modal-dialog .nav-tabs > .nav-item > .nav-link.active {
+  background-color: #2CA8FF !important;
+  margin-top: 20px;
+  box-shadow: 0px 5px 25px 0px rgba(44, 168, 255, 0.2) !important;
+}
+.gallery-page .modal-dialog .nav-tabs > .nav-item > .nav-link {
+  margin-top: 20px !important;
+}
+
+.modal-dialog .title {
+  font-size: 1.6em !important;
+  font-weight: 700;
+  color: #f96332;
+}
+
+.gallery-page .modal-dialog .modal-body {
+  padding-bottom: 0 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-dialog {
+    max-width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .gallery-page {
+    max-height: 50vh !important;
+  }
+
+  .gallery-page .carousel-container {
+    height: 200px;
+  }
+  
+  .gallery-page .carousel-container img {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .gallery-page .details {
+    margin: 0;
+  }
+
+  .gallery-page .modal-dialog .nav-tabs > .nav-item > .nav-link.active {
+    background-color: #2CA8FF !important;
+    margin-top: 0;
+    box-shadow: 0px 5px 25px 0px rgba(44, 168, 255, 0.2) !important;
+  }
+  .gallery-page .modal-dialog .nav-tabs > .nav-item > .nav-link {
+    margin-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .gallery-page {
+    max-height: 40vh !important;
+  }
+}
+
+/* Spot Ball */
+
+.spot-ball-page, .checkout-page {
+  max-height: 30vh !important;
+  min-height: 30vh !important;
+
+}
+
+.spot-ball-page .title {
+  padding-top: 20px !important;
+
+}
+
+.spot-ball-page .game-container {
+  min-width: 1300px !important;
+}
+
+.spot-ball-page .tools-container {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.spot-ball-page #spotImageWrapper {
+  position: relative;
+  margin: 0 20px 20px 20px !important;  
+  width: 736px;
+  height: 556px;
+}
+
+.spot-ball-page #spotImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 736px;
+  height: 556px;
+}
+
+.spot-ball-page #spotSidebar {
+  width: 315px;
+  float: right;
+  height: 554px;
+  background-color: #ffffff;
+  color: #666666;
+  position: relative;
+  overflow-x: hidden; 
+  overflow-y: scroll;
+  margin-bottom: 60px;
+}
+
+.spot-ball-page .cart-actions button{
+  width: 90px !important;
+  padding: 5px 0px !important;
+  background-color: #2CA8FF;
+  margin-right: 8px !important;
+}
+
+.spot-ball-page .cart-actions {
+  padding-left: 12px !important;
+  margin-top: -6px !important;
+}
+
+.spot-ball-page .play-count-label{
+  color: #f96332;
+}
+
+.spot-ball-page .cart-item{
+  padding: 8px 8px 0 8px;
+  margin: 0 0 5px 0;
+  border: 1px solid #c5c5c5;
+}
+
+.spot-ball-page .card-title {
+  margin-bottom: 8px !important;
+}
+
+.spot-ball-page .cart-actions .remove{
+  background-color: #f96332;
+}
+
+.spot-ball-page .cart-actions .add{
+  background-color: #FFB236;
+}
+
+div.cart-item.selected{
+  background-color:rgb(190, 190, 190);
+}
+
+.proc-container{
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.proc-container a, .proc-container button{
+  background-color: #2CA8FF;
+  width: 90%;
+  height: 45px;
+  margin: 4px;
+  border-radius: 20px;
+}
+
+/* Checkout Page */
+.checkout-page .card-summary {
+  color: white;
+  padding: 11px 22px !important;
+  background-color: #2CA8FF !important;
+  margin: 0;
+}
+
+.checkout-page .card-body {
+  padding: 0 !important;
+}
+
+#table-cart thead {
+  background-color: #2CA8FF !important;
+  color: white;
+}
+
+.checkout-page .table-responsive {
+  overflow: visible !important;
+}
+
+.checkout-page .summary-info {
+  justify-content: space-between;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.checkout-page .btn-row .btn-checkout {
+  width: 100%;
+}
+
+.checkout-page .btn-row{
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .checkout-page #table-cart .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  h1 { font-size: 30px !important; }
+  h2 { font-size: 25px !important; }
+  h3 { font-size: 20px !important; }
+  h4 { font-size: 18px !important; }
+  .page-header .page-header-image { background-position: left center !important;}
+  .home-title,.home-description {text-align: center !important;}
+  .card-body {
+    padding-top: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .home-page-header {
+    padding-top: 60px !important;
+  }
+  .home-title,.home-description {text-align: right !important;}
+
+}
+
+.red-text{
+  color:rgb(255, 198, 198);
+}
+
+.dropzone{
+  border-style: dashed;
+}
+
+.img-remover{
+  width: 100%;
+  text-align: center;
+  font-size: large;
+}
+
+.spotball-image{
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size : cover;
+}
+.markSVG{
+  width: auto;
+  height: auto;
+}
+.markImg{
+  width: auto;
+  height: auto;
+}

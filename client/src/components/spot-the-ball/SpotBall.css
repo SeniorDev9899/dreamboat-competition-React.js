@@ -1,0 +1,121 @@
+
+#dreamboatSpotImage {
+  background-size: 736px 556px;
+  background-repeat: no-repeat;
+  width: 736px;
+  height: 556px;
+}
+
+#drawSvg {
+  overflow: hidden;
+  position: relative;
+}
+
+path {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#div_body {
+  margin: 50px;
+}
+
+.live_coordinates {
+  position: absolute;
+  display: block;
+  color: #ffffff;
+  white-space: nowrap;
+  font-size: 14px;
+  z-index: 1001;
+  text-shadow: 1px 0 0 #333333, -1px 0 0 #333333, 0 1px 0 #333333,
+    0 -1px 0 #333333, 1px 1px #333333, -1px -1px 0 #333333, 1px -1px 0 #333333,
+    -1px 1px 0 #333333;
+}
+
+#dreamboatSpotZoomWrapper {
+  background-size: 2944px 2224px;
+  background-repeat: no-repeat;
+  height: 2224px;
+  width: 2944px;
+  left: -111px;
+  top: -1588px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#zoomSVG{
+  height: 2224px;
+  width: 2944px;
+}
+
+#dreamboatSpotLens {
+  width: 64px;
+  height: 64px;
+  min-width: 64px;
+  min-height: 64px;
+  border-radius: 64px;
+  display: block;
+  left: 0px;
+  top: 0px;
+}
+
+.lensComponent {
+  position: absolute;
+  z-index: 101;
+  width: 64px;
+  height: 64px;
+  min-height: 64px;
+  max-height: 64px;
+  display: none;
+}
+#markdiv{
+  z-index: 1002;
+  position: absolute;
+  overflow: hidden;
+}
+
+#dreamboatSpotImage.has_lines #dreamboatSpotLens {
+  z-index: 1000;
+}
+
+#dreamboatSpotLens {
+  overflow: hidden;
+  border: 1.5px solid #ff8201;
+  border-radius: 32px;
+}
+
+#dreamboatSpotZoomWrapper {
+  position: absolute;
+  overflow: hidden;
+}
+
+#dreamboatSpotImage > svg {
+  z-index: 1002;
+}
+
+#drawing_zoom {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#dreamboatSpotImage.drawing_lines > svg {
+  z-index: 102 !important;
+}
+#dreamboatSpotImage.drawing_lines > svg path {
+  opacity: 0.2;
+}
+#dreamboatSpotImage.drawing_lines > svg path:last-child {
+  opacity: 1;
+}
+
+#dreamboatSpotImage.drawing_lines > svg path#ltest {
+  opacity: 1;
+}
+
+#dreamboatSpotGameWrapper {
+  position: absolute;
+  padding: 20px;
+  margin: -20px;
+  width: -webkit-calc(736px + (2 * 20px));
+  width: calc(736px + (2 * 20px));
+  height: -webkit-calc(556px + (2 * 20px));
+  height: calc(556px + (2 * 20px));
+}
